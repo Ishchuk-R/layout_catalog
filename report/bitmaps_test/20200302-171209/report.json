@@ -4,7 +4,7 @@
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Entire_document_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Entire_document_1024px.png",
         "selector": "document",
         "fileName": "Entire_document_1024px.png",
         "label": "Entire document",
@@ -17,20 +17,20 @@
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -4
+            "width": -232,
+            "height": 96
           },
-          "misMatchPercentage": "10.40",
-          "analysisTime": 300
+          "misMatchPercentage": "29.34",
+          "analysisTime": 155
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Entire_document_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Entire_document_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Entire_document_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Entire_document_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Entire_document_1200px.png",
         "selector": "document",
         "fileName": "Entire_document_1200px.png",
         "label": "Entire document",
@@ -43,20 +43,20 @@
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
-            "height": -4
+            "width": -144,
+            "height": 96
           },
-          "misMatchPercentage": "8.88",
-          "analysisTime": 226
+          "misMatchPercentage": "29.43",
+          "analysisTime": 263
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Entire_document_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Entire_document_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Header_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Header_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Header_tag_1024px.png",
         "selector": "header",
         "fileName": "Header_tag_1024px.png",
         "label": "Header tag",
@@ -80,7 +80,7 @@
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Header_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Header_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Header_tag_1200px.png",
         "selector": "header",
         "fileName": "Header_tag_1200px.png",
         "label": "Header tag",
@@ -104,7 +104,7 @@
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Nav_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Nav_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Nav_tag_1024px.png",
         "selector": "nav",
         "fileName": "Nav_tag_1024px.png",
         "label": "Nav tag",
@@ -128,7 +128,7 @@
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Nav_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Nav_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Nav_tag_1200px.png",
         "selector": "nav",
         "fileName": "Nav_tag_1200px.png",
         "label": "Nav tag",
@@ -152,7 +152,7 @@
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Link_with_data-qa_hover_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Link_with_data-qa_hover_1024px.png",
         "selector": "[data-qa=\"nav-hover\"]",
         "fileName": "Link_with_data-qa_hover_1024px.png",
         "label": "Link with data-qa_hover",
@@ -162,23 +162,24 @@
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -20,
-            "height": 0
+            "width": -69,
+            "height": -120
           },
-          "misMatchPercentage": "12.60",
-          "analysisTime": 91
+          "misMatchPercentage": "23.36",
+          "analysisTime": 134
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Link_with_data-qa_hover_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Link_with_data-qa_hover_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_data-qa_hover_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Link_with_data-qa_hover_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Link_with_data-qa_hover_1200px.png",
         "selector": "[data-qa=\"nav-hover\"]",
         "fileName": "Link_with_data-qa_hover_1200px.png",
         "label": "Link with data-qa_hover",
@@ -188,23 +189,24 @@
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -20,
-            "height": 0
+            "width": -69,
+            "height": -120
           },
-          "misMatchPercentage": "12.60",
-          "analysisTime": 71
+          "misMatchPercentage": "23.36",
+          "analysisTime": 178
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Link_with_data-qa_hover_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Link_with_data-qa_hover_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_class_is-active_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Link_with_class_is-active_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Link_with_class_is-active_1024px.png",
         "selector": "a.is-active",
         "fileName": "Link_with_class_is-active_1024px.png",
         "label": "Link with class_is-active",
@@ -214,23 +216,24 @@
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -20,
-            "height": 0
+            "width": -196,
+            "height": -120
           },
-          "misMatchPercentage": "16.34",
-          "analysisTime": 9
+          "misMatchPercentage": "5.17",
+          "analysisTime": 97
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Link_with_class_is-active_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Link_with_class_is-active_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Link_with_class_is-active_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Link_with_class_is-active_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Link_with_class_is-active_1200px.png",
         "selector": "a.is-active",
         "fileName": "Link_with_class_is-active_1200px.png",
         "label": "Link with class_is-active",
@@ -240,23 +243,24 @@
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1200px",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -20,
-            "height": 0
+            "width": -196,
+            "height": -120
           },
-          "misMatchPercentage": "16.34",
-          "analysisTime": 52
+          "misMatchPercentage": "5.17",
+          "analysisTime": 51
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Link_with_class_is-active_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Link_with_class_is-active_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Main_tag_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Main_tag_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Main_tag_1024px.png",
         "selector": "main",
         "fileName": "Main_tag_1024px.png",
         "label": "Main tag",
@@ -266,23 +270,24 @@
         "referenceUrl": "https://mate-academy.github.io/layout_solutions/catalog/",
         "expect": 0,
         "viewportLabel": "1024px",
+        "engineErrorMsg": "Execution context was destroyed, most likely because of a navigation.",
         "diff": {
           "isSameDimensions": false,
           "dimensionDifference": {
-            "width": -32,
-            "height": 4
+            "width": -792,
+            "height": -726
           },
-          "misMatchPercentage": "34.00",
-          "analysisTime": 140
+          "misMatchPercentage": "4.49",
+          "analysisTime": 81
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Main_tag_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Main_tag_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Main_tag_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Main_tag_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Main_tag_1200px.png",
         "selector": "main",
         "fileName": "Main_tag_1200px.png",
         "label": "Main tag",
@@ -296,19 +301,19 @@
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": -208,
-            "height": 4
+            "height": -96
           },
-          "misMatchPercentage": "33.10",
-          "analysisTime": 155
+          "misMatchPercentage": "31.93",
+          "analysisTime": 134
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Main_tag_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Main_tag_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Card_with_data-qa_card_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Card_with_data-qa_card_1024px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card_1024px.png",
         "label": "Card with data-qa_card",
@@ -322,19 +327,19 @@
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 2
+            "height": -2
           },
-          "misMatchPercentage": "12.20",
-          "analysisTime": 83
+          "misMatchPercentage": "19.60",
+          "analysisTime": 57
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Card_with_data-qa_card_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Card_with_data-qa_card_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Card_with_data-qa_card_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Card_with_data-qa_card_1200px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card_1200px.png",
         "label": "Card with data-qa_card",
@@ -350,17 +355,17 @@
             "width": 0,
             "height": -2
           },
-          "misMatchPercentage": "12.20",
-          "analysisTime": 51
+          "misMatchPercentage": "19.60",
+          "analysisTime": 168
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Card_with_data-qa_card_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Card_with_data-qa_card_1200px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card-hover_1024px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Card_with_data-qa_card-hover_1024px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Card_with_data-qa_card-hover_1024px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card-hover_1024px.png",
         "label": "Card with data-qa_card-hover",
@@ -378,16 +383,16 @@
             "height": -223
           },
           "misMatchPercentage": "44.51",
-          "analysisTime": 91
+          "analysisTime": 64
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Card_with_data-qa_card-hover_1024px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Card_with_data-qa_card-hover_1024px.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "..\\bitmaps_reference\\Card_with_data-qa_card-hover_1200px.png",
-        "test": "..\\bitmaps_test\\20200228-142059\\Card_with_data-qa_card-hover_1200px.png",
+        "test": "..\\bitmaps_test\\20200302-171209\\Card_with_data-qa_card-hover_1200px.png",
         "selector": "[data-qa=\"card\"]",
         "fileName": "Card_with_data-qa_card-hover_1200px.png",
         "label": "Card with data-qa_card-hover",
@@ -405,9 +410,9 @@
             "height": -223
           },
           "misMatchPercentage": "44.51",
-          "analysisTime": 62
+          "analysisTime": 315
         },
-        "diffImage": "..\\bitmaps_test\\20200228-142059\\failed_diff_Card_with_data-qa_card-hover_1200px.png"
+        "diffImage": "..\\bitmaps_test\\20200302-171209\\failed_diff_Card_with_data-qa_card-hover_1200px.png"
       },
       "status": "fail"
     }
