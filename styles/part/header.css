@@ -18,7 +18,7 @@
   display: flex;
   margin-left: -10px;
   margin-right: -10px; }
-  .nav-list .nav-link {
+  .nav-list-link {
     padding: 15px 10px;
     line-height: 30px;
     font-size: 12px;
@@ -29,9 +29,9 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative; }
-    .nav-list .nav-link:hover, .nav-list .nav-link.is-active {
+    .nav-list-link:hover, .nav-list-link.is-active {
       color: #00acdc; }
-    .nav-list .nav-link.is-active:after {
+    .nav-list-link.is-active:after {
       content: "";
       left: 10px;
       background: #00acdc;

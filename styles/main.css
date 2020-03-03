@@ -55,7 +55,7 @@ a {
   display: flex;
   margin-left: -10px;
   margin-right: -10px; }
-  .nav-list .nav-link {
+  .nav-list-link {
     padding: 15px 10px;
     line-height: 30px;
     font-size: 12px;
@@ -66,9 +66,9 @@ a {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative; }
-    .nav-list .nav-link:hover, .nav-list .nav-link.is-active {
+    .nav-list-link:hover, .nav-list-link.is-active {
       color: #00acdc; }
-    .nav-list .nav-link.is-active:after {
+    .nav-list-link.is-active:after {
       content: "";
       left: 10px;
       background: #00acdc;
@@ -87,93 +87,79 @@ a {
           box-sizing: border-box;
   border-radius: 5px;
   max-width: 200px; }
-
-.card__img {
-  margin: 14px auto 45px;
-  height: auto;
-  max-width: 160px;
-  display: block; }
-
-.card__title {
-  font-size: 12px;
-  line-height: 1.35;
-  font-weight: 500;
-  color: #000;
-  margin-bottom: 6px; }
-
-.card__code {
-  font-size: 11px;
-  line-height: 13px;
-  margin-bottom: 16px;
-  margin-top: 0; }
-
-.card__review {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 20px; }
-
-.card__stars {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.card__star {
-  width: 15px;
-  height: 15px;
-  margin-right: 4px;
-  background: url(images/star.svg) no-repeat; }
-
-.card__star:nth-child(-n + 4) {
-  background: url(images/star-active.svg) no-repeat; }
-
-.card__info {
-  font-size: 11px;
-  line-height: 13px; }
-
-.card__price {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 20px;
-  line-height: 19px; }
-
-.card__cost {
-  font-size: 11px; }
-
-.card__value {
-  font-weight: bold;
-  font-size: 16px; }
-
-.card__btn {
-  background: #00acdc;
-  border: 1px solid #00acdc;
-  border-radius: 5px;
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #fff;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 9px 15px;
-  text-transform: uppercase;
-  -webkit-transition: background 0.3s ease-in, color  0.3s ease-in;
-  transition: background 0.3s ease-in, color  0.3s ease-in;
-  font-weight: 500;
-  text-align: center; }
-
-.card:hover {
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); }
-
-.card:hover .card__btn {
-  background: transparent;
-  color: #00acdc; }
+  .card__img {
+    margin: 14px auto 45px;
+    height: auto;
+    max-width: 160px;
+    display: block; }
+  .card__title {
+    font-size: 12px;
+    line-height: 1.35;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 6px; }
+  .card__code {
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 16px;
+    margin-top: 0; }
+  .card__review {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px; }
+  .card__stars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .card__star {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    background: url(images/star.svg) no-repeat; }
+  .card__star:nth-child(-n + 4) {
+    background: url(images/star-active.svg) no-repeat; }
+  .card__info {
+    font-size: 11px;
+    line-height: 13px; }
+  .card__price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px;
+    line-height: 19px; }
+  .card__cost {
+    font-size: 11px; }
+  .card__value {
+    font-weight: bold;
+    font-size: 16px; }
+  .card__btn {
+    background: #00acdc;
+    border: 1px solid #00acdc;
+    border-radius: 5px;
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    -webkit-transition: background 0.3s ease-in, color  0.3s ease-in;
+    transition: background 0.3s ease-in, color  0.3s ease-in;
+    font-weight: 500;
+    text-align: center; }
+  .card:hover {
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); }
+    .card:hover .card__btn {
+      background: transparent;
+      color: #00acdc; }
 
 /*# sourceMappingURL=main.css.map */
