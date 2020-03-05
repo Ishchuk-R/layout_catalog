@@ -21,6 +21,8 @@
     font-weight: 500;
     box-sizing: border-box;
     position: relative;
+    transition: color 0.3s ease-out;
+
     &:hover,
     &.is-active {
       color: #00acdc;
