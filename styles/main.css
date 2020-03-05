@@ -91,7 +91,7 @@ a {
   max-width: 200px; }
   .card__img {
     margin: 15px auto 27px;
-    padding: 10px 0;
+    padding: 14px 0;
     border-radius: 5px 5px 0 0;
     -webkit-transition: -webkit-transform 1s;
     transition: -webkit-transform 1s;
@@ -101,7 +101,7 @@ a {
     cursor: -webkit-zoom-in;
     cursor: zoom-in; }
     .card__img-picture {
-      max-width: 160px;
+      max-width: 160.66px;
       height: auto; }
     .card__img:hover {
       border: 3px solid #eee;
@@ -155,6 +155,7 @@ a {
     font-weight: bold;
     font-size: 16px; }
   .card__btn {
+    background: #00acdc;
     border: 1px solid #00acdc;
     border-radius: 5px;
     display: block;
@@ -168,26 +169,10 @@ a {
     -webkit-transition: background 0.3s ease-in, color  0.3s ease-in;
     transition: background 0.3s ease-in, color  0.3s ease-in;
     font-weight: 500;
-    text-align: center;
-    position: relative;
-    z-index: 1; }
-    .card__btn:after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      background: #00acdc;
-      right: 0;
-      top: 0;
-      z-index: -1;
-      max-width: 100%;
-      -webkit-transition: max-width 0.3s;
-      transition: max-width 0.3s; }
+    text-align: center; }
     .card__btn:hover {
       background: transparent;
       color: #00acdc; }
-      .card__btn:hover:after {
-        max-width: 0; }
   .card:hover {
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07); }
